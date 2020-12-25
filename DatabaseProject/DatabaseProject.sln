@@ -9,6 +9,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ClubDB", "ClubDB\ClubDB.sql
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PaymentDB", "PaymentDB\PaymentDB.sqlproj", "{C7B4308F-4EB6-41C0-979B-27C7EDB917EE}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookingDB", "BookingDB\BookingDB.sqlproj", "{6BEEA5DF-C700-49C1-A184-5064E5901AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{C7B4308F-4EB6-41C0-979B-27C7EDB917EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7B4308F-4EB6-41C0-979B-27C7EDB917EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7B4308F-4EB6-41C0-979B-27C7EDB917EE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6BEEA5DF-C700-49C1-A184-5064E5901AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEEA5DF-C700-49C1-A184-5064E5901AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEEA5DF-C700-49C1-A184-5064E5901AF6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6BEEA5DF-C700-49C1-A184-5064E5901AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEEA5DF-C700-49C1-A184-5064E5901AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEEA5DF-C700-49C1-A184-5064E5901AF6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
