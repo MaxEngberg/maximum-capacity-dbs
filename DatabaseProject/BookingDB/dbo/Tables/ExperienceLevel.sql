@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ExperienceLevel]
+(
+	[ID] INT NOT NULL CONSTRAINT [PK_ExperienceLevel] PRIMARY KEY IDENTITY, 
+    [Name] VARCHAR(255) NOT NULL, 
+    [RecordCreatedAt] DATETIMEOFFSET NOT NULL CONSTRAINT [DF_ExperienceLevel_RecordCreatedAt] DEFAULT SYSDATETIMEOFFSET(), 
+    [RecordUpdatedAt] DATETIMEOFFSET NULL, 
+    [ClubID] INT NOT NULL
+)

@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Booking]
+(
+	[ID] INT NOT NULL CONSTRAINT [PK_Booking] PRIMARY KEY IDENTITY, 
+    [BookingCode] VARCHAR(6) NOT NULL, 
+    [BookerName] VARCHAR(255) NOT NULL, 
+    [RecordCreatedAt] DATETIMEOFFSET NOT NULL CONSTRAINT [DF_Booking_RecordCreatedAt] DEFAULT SYSDATETIMEOFFSET(), 
+    [RecordUpdatedAt] DATETIMEOFFSET NULL, 
+    [UserID] INT NOT NULL
+)
